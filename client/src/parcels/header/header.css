@@ -1,0 +1,91 @@
+body {
+  background-color: #e6ecf0 !important;
+}
+
+.logo {
+  width: 1.5rem;
+}
+
+.nav-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #115279;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-header > div {
+  padding: 10px 0;
+  color: grey;
+  font-size: 0.7rem;
+  padding-left: 20px;
+  min-width: 80%;
+  margin: 0 auto;
+}
+
+.nav-header > div > span {
+  padding-left: 20px;
+}
+
+.sub-nav-header {
+  margin: 0 auto;
+  background-color: #1da1f2;
+  display: flex;
+  justify-content: center;
+}
+
+.sub-nav-header > h1 {
+  padding: 16px 0;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-left: 20px;
+  min-width: 80%;
+  margin: 0 auto;
+}
+
+.topic-nav {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+.topic-nav nav {
+  min-width: 80%;
+}
+
+.topic-nav nav ul {
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  padding: 0;
+}
+
+.topic-nav li {
+  list-style: none;
+  padding: 10px;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.topic-nav a {
+  color: #657786;
+}
+
+.topic-nav a:hover {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+.topic-nav .active {
+  border-bottom: 2px solid #1da1f2;
+}
+
+@media only screen and (max-width: 600px) {
+  .sub-nav-header > h1 {
+    min-width: 0;
+    padding-left: 0;
+  }
+}

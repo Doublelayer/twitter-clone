@@ -1,0 +1,17 @@
+.copyright {
+  padding: 15px;
+  background-color: white;
+}
+
+.copyright .heading {
+  font-weight: bold;
+}
+
+.copyright .sub-heading {
+  color: grey;
+  font-style: italic;
+}
+
+.copyright .content {
+  margin-top: 20px;
+}

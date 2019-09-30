@@ -1,0 +1,9 @@
+.user-name {
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.tweet-details {
+  color: grey;
+  font-style: italic;
+}

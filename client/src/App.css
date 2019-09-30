@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.app-content {
+  max-width: 80%;
+  margin: 15px auto 0;
+}
+
+.row {
+  justify-content: center;
+}
+
+.tweets-main-section {
+  background-color: white;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .app-content {
+    max-width: 90%;
+  }
+}

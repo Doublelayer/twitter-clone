@@ -1,0 +1,17 @@
+.trend {
+  padding-top: 20px;
+}
+
+.trends-hashtag {
+  color: #1da1f2;
+  font-weight: 800;
+}
+
+.trends-counter {
+  color: #bec3c7;
+}
+
+.trends-area {
+  padding: 15px;
+  background-color: white;
+}
