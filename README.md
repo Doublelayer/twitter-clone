@@ -1,5 +1,5 @@
 ﻿# #twitterClone
-A basic twitter clone built to demonstrate the full stack 🥞 (client, server, database).
+A basic twitter clone to demonstrate the full stack 🥞 (client, server, database).
 
 * You can send new Tweets 👤✉️
 * You can see all tweets that have been sent  📢
