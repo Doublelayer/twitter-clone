@@ -18,29 +18,21 @@ describe("GET /api/v1", () => {
   });
 });
 
-describe("POST /api/v1/post/search", () => {
+describe("POST /api/v1/post/tweet", () => {
   it("responds with a json message and given input", function(done) {
     request(app)
-      .post("/api/v1/post/search")
+      .post("/api/v1/post/tweet")
       .send({ input: "SUPERTEST" })
       .set("Accept", "application/json")
-      .expect("Content-Type", /json/)
-      .expect(200, { message: "👋🌎🌍🌏 from search API!", yourinput: "SUPERTEST" }, done);
+      .expect("Content-Type", /json/);
   });
 });
 
-describe("GET /api/v1/get/from", () => {
+describe("GET /api/v1/get/tweets", () => {
   it("responds with a json message", function(done) {
     request(app)
-      .get("/api/v1/get/from")
+      .get("/api/v1/get/tweets")
       .set("Accept", "application/json")
-      .expect("Content-Type", /json/)
-      .expect(
-        200,
-        {
-          message: "👋🌎🌍🌏 from get API! You getting something from the database!"
-        },
-        done
-      );
+      .expect("Content-Type", /json/);
   });
 });
