@@ -3,10 +3,6 @@ import React from "react";
 import "./socialBtn.css";
 
 export default class SocialButton extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="social-btn-wrapper">

@@ -1,4 +1,5 @@
-const API_BASE_URL = window.location.hostname === "localhost" ? "http://localhost:5000/api/v1/" : "http://192.168.2.123:5000/api/v1/";
+const API_BASE_URL =
+  window.location.hostname === "localhost" ? "http://localhost:5000/api/v1/" : "https://twitter-clone-api.doublelayer.now.sh/";
 
 export default {
   post: `${API_BASE_URL}/post/tweet`,

@@ -13,8 +13,6 @@ import api from "./api";
 
 import "./App.css";
 
-const API_URL = window.location.hostname === "local#host" ? "http://localhost:5000/api/v1/" : "http://192.168.2.123:5000/api/v1/";
-
 export default class App extends Component {
   constructor(props) {
     super(props);
