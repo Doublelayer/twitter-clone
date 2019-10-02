@@ -2,4 +2,34 @@
   text-align: right;
   padding-top: 5px;
   justify-content: right;
+  padding: 20px 0 0 0;
+}
+
+.character-count {
+  font-size: 0.8rem;
+  font-style: italic;
+  padding-right: 10px;
+}
+
+.btn {
+  padding: 0;
+}
+
+.user-name-error {
+  text-align: center;
+  color: red;
+}
+
+.error-form {
+  border: 1px solid red !important;
+}
+
+.css-0 {
+  display: inline;
+  vertical-align: middle;
+  padding: 0.375rem 0.75rem;
+}
+
+.btn-submit {
+  padding: 0 !important;
 }

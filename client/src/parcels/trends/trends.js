@@ -3,10 +3,6 @@ import React from "react";
 import "./trends.css";
 
 export default class TrendsArea extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="trends-area shadow">

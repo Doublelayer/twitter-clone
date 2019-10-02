@@ -1,7 +1,9 @@
 dependencies:
+  bad-words: 3.0.3
   cors: 2.8.5
   dotenv: 6.2.0
   express: 4.17.1
+  faker: 4.1.0
   helmet: 3.21.1
   mongodb: 3.3.2
   mongoose: 5.7.1_mongoose@5.7.1
@@ -314,6 +316,18 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
+  /bad-words/3.0.3:
+    dependencies:
+      badwords-list: 1.0.0
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    resolution:
+      integrity: sha512-To+nGz+U8SpEQieZ2kSadY/1hVO88UXAslCJuTgLjDOuGrs/tNW2BYwl0fctxcRLooe0nzYN1pGzgvRIrd0BeA==
+  /badwords-list/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-XphW2/E0gqKVw7CzBK+51M/FxXk=
   /balanced-match/1.0.0:
     dev: true
     resolution:
@@ -1312,6 +1326,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-Nmb6QXkELsuBr24CJSkilo6UHHgbekK5UiZgfE6UHD3Eb27YC6oD+bhcT+tJ6cl8dmsgdQxnWlcry8ksBIBLpw==
+  /faker/4.1.0:
+    dev: false
+    resolution:
+      integrity: sha1-HkW7vsxndLPBlfrSg1EJxtdIzD8=
   /fast-deep-equal/2.0.1:
     dev: true
     resolution:
@@ -4415,12 +4433,14 @@ packages:
     resolution:
       integrity: sha1-AwiOnr+edWtpdRYR0qXvWRSCyZU=
 specifiers:
+  bad-words: ^3.0.3
   cors: ^2.8.5
   dotenv: ^6.2.0
   eslint: ^5.12.0
   eslint-config-airbnb-base: ^13.1.0
   eslint-plugin-import: ^2.14.0
   express: ^4.16.4
+  faker: ^4.1.0
   helmet: ^3.15.0
   mocha: ^5.2.0
   mongodb: ^3.3.2

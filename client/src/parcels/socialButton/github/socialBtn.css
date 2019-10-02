@@ -1,7 +1,6 @@
 .social-btn-wrapper {
   justify-content: center;
   align-items: center;
-  height: -webkit-fill-available;
   text-align: center;
 }
 
@@ -44,14 +43,14 @@
 }
 
 .social-btn-wrapper .inner {
-  background-color: #67e2fe;
+  background-color: #8d9598;
 }
 .social-btn-wrapper .outer {
-  background-color: #2ec8fa;
+  background-color: #8d9598;
   transform: translateZ(0.25rem);
 }
 .social-btn-wrapper .edge {
-  background-color: #20c7f3;
+  background-color: #8d9598;
   top: 0.25rem;
   height: 0.25rem;
   transform: rotateX(90deg);
@@ -89,4 +88,8 @@
 .social-btn-wrapper .social-btn:hover .shadow {
   transform: rotateX(45deg) scale(0.95);
   opacity: 0.3;
+}
+
+.git-logo {
+  height: 1rem;
 }

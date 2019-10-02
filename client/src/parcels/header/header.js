@@ -1,19 +1,14 @@
 import React from "react";
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
 
 import "./header.css";
 
 export default class TwitterNavbar extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div>
         <div className="nav-header">
           <div>
-            <img className="logo" src="https://upload.wikimedia.org/wikipedia/de/9/9f/Twitter_bird_logo_2012.svg" />
+            <img className="logo" src="https://upload.wikimedia.org/wikipedia/de/9/9f/Twitter_bird_logo_2012.svg" alt="logo" />
             <span>TWITTER-CLONE | FULL STACK DEVELOPMENT</span>
           </div>
         </div>
@@ -24,13 +19,13 @@ export default class TwitterNavbar extends React.Component {
           <nav>
             <ul>
               <li className="list-item active">
-                <a href="#">Top</a>
+                <a href="/">Top</a>
               </li>
               <li className="list-item">
-                <a href="#">Neueste</a>
+                <a href="/">Neueste</a>
               </li>
               <li className="list-item">
-                <a href="#">Personen</a>
+                <a href="/">Personen</a>
               </li>
             </ul>
           </nav>

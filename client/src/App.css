@@ -24,6 +24,19 @@
   padding: 15px;
 }
 
+.loading-spinner {
+  text-align: center;
+}
+
+.alert {
+  text-align: center;
+  position: fixed !important;
+  bottom: 10px !important;
+  left: 20px !important;
+  right: 20px !important;
+  z-index: 9999;
+}
+
 @media only screen and (max-width: 600px) {
   .app-content {
     max-width: 90%;

@@ -1,9 +1,11 @@
 dependencies:
   bootstrap: 4.3.1
+  moment: 2.24.0
   prop-types: 15.7.2
   react: 16.10.1
   react-device-detect: 1.9.10_react-dom@16.10.1+react@16.10.1
   react-dom: 16.10.1_react@16.10.1
+  react-highlight-words: 0.16.0_react@16.10.1
   react-scripts: 3.1.2
   react-spinners: 0.6.1_react-dom@16.10.1+react@16.10.1
   reactstrap: 8.0.1_react-dom@16.10.1+react@16.10.1
@@ -5287,6 +5289,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
+  /highlight-words-core/1.2.2:
+    dev: false
+    resolution:
+      integrity: sha512-BXUKIkUuh6cmmxzi5OIbUJxrG8OAk2MqoL1DtO3Wo9D2faJg2ph5ntyuQeLqaHJmzER6H5tllCDA9ZnNe9BVGg==
   /hmac-drbg/1.0.1:
     dependencies:
       hash.js: 1.1.7
@@ -6927,6 +6933,10 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-qX2bG48pTqYRVmDB37rn/6PT7LcR8T7oAX3bf99u1Tt1nzxYfxkgqDwUwolPlXweM0XzBOBFzSx4kfp7KP1s/w==
+  /memoize-one/4.0.3:
+    dev: false
+    resolution:
+      integrity: sha512-QmpUu4KqDmX0plH4u+tf0riMc1KHE1+lw95cMrLlXQAFOx/xnBtwhZ52XJxd9X2O6kwKBqX32kmhbhlobD0cuw==
   /memory-fs/0.4.1:
     dependencies:
       errno: 0.1.7
@@ -7124,6 +7134,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
+  /moment/2.24.0:
+    dev: false
+    resolution:
+      integrity: sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
   /move-concurrently/1.0.1:
     dependencies:
       aproba: 1.2.0
@@ -8920,6 +8934,17 @@ packages:
     dev: false
     resolution:
       integrity: sha512-DHRuRk3K4Lg9obI6J4Y+nKvtwjasYRU9CFL3ud42x9YJG1HbQjSNublapC/WBJOA726gNUbqbj0U2df9+uzspQ==
+  /react-highlight-words/0.16.0_react@16.10.1:
+    dependencies:
+      highlight-words-core: 1.2.2
+      memoize-one: 4.0.3
+      prop-types: 15.7.2
+      react: 16.10.1
+    dev: false
+    peerDependencies:
+      react: ^0.14.0 || ^15.0.0 || ^16.0.0-0
+    resolution:
+      integrity: sha512-q34TwCSJOL+5pVDv6LUj3amaoyXdNDwd7zRqVAvceOrO9g1haWLAglK6WkGLMNUa3PFN8EgGedLg/k8Gpndxqg==
   /react-is/16.10.1:
     dev: false
     resolution:
@@ -11167,10 +11192,12 @@ packages:
       integrity: sha512-2eehun/8ALW8TLoIl7MVaRUrg+yCnenu8B4kBlRxj3GJGDKU1Og7sMXPNm1BYyM1DOJmTZ4YeN/Nwxv+8XJsUA==
 specifiers:
   bootstrap: ^4.3.1
+  moment: ^2.24.0
   prop-types: ^15.7.2
   react: ^16.9.0
   react-device-detect: ^1.9.10
   react-dom: ^16.9.0
+  react-highlight-words: ^0.16.0
   react-scripts: 3.1.2
   react-spinners: ^0.6.1
   reactstrap: ^8.0.1
