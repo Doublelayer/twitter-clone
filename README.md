@@ -18,6 +18,8 @@ A basic twitter clone to demonstrate the full stack 🥞 (client, server, databa
 🚀 Deploy the client&server with [now.sh](https://zeit.co)  
 🚀 Deploy the database with [mlab](https://mlab.com/)
 
+
+![example-site](example.png)
 ---
 
 ## Client :busts_in_silhouette:
